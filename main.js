@@ -144,7 +144,7 @@ async function onChangeClick(event) {
       body: JSON.stringify({ title: newTitle }),
     });
     if (!response.ok) {
-      throw new Error('Failed to update post');
+      throw new Error('Не вдалося поділитися публікацією');
     }
 
     const cardTitle = card.querySelector('h2');
