@@ -1,0 +1,29 @@
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.load-more-hidden {
+  display: none;
+}
+
+.load-more {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: red;
+  background-color: whitesmoke;
+  padding: 5px;
+  border: 1px solid red;
+  border-radius: 2px;
+}
+
+.load-more:hover {
+  color: white;
+  background-color: red;
+  transition: all 1s ease;
+}
